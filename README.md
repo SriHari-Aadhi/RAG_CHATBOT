@@ -67,37 +67,6 @@ This chatbot acts as a **24/7 intelligent tutor**, capable of answering:
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1️⃣ Clone the Repository
-
-git clone https://github.com/your-username/guvi-rag-chatbot.git
-cd guvi-rag-chatbot
-
-2️⃣ Create and Activate Virtual Environment
-python -m venv .venv
-source .venv/bin/activate      # Linux/Mac
-.\.venv\Scripts\activate       # Windows
-
-3️⃣ Install Dependencies
-pip install -r requirements.txt
-
-4️⃣ Place Your Model
-
-Download a GGUF model (example):
-models/mistral-7b-instruct.Q4_K_M.gguf
-
-5️⃣ Prepare Knowledge Base
-
-Place course notes inside:
-docs/
-
-6️⃣ Build Vector Memory Index
-python memory_builder.py
-
-7️⃣ Run the RAG Chatbot
-streamlit run rag_chatbot_app.py
-
 
 
 
