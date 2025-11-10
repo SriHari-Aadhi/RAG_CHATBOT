@@ -37,19 +37,33 @@ This chatbot acts as a **24/7 intelligent tutor**, capable of answering:
 ## 📂 Project Structure
 
 /project-root
+
 │── chatbot_app.py # Normal chatbot interface (no retrieval)
+
 │── rag_chatbot_app.py # RAG-based chatbot interface
+
 │── memory_builder.py # Builds vector index from documents
+
 │── models/ # GGUF LLaMA / Mistral model files
+
 │── docs/ # Knowledge base (markdown files)
+
 │── vector_store/ # FAISS / Chroma embeddings directory
+
 │── chatbot/
+
 │ │── bot/
+
 │ │── conversation/
+
 │ │── client/
+
 │ │── model/
+
 │ │── memory/
+
 │ │── helpers/
+
 
 
 ---
