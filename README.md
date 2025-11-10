@@ -1,4 +1,4 @@
-# 🤖 GUVI Knowledge Retrieval Chatbot using RAG  
+# 🤖 Knowledge Retrieval Chatbot using RAG  
 *Domain: EdTech | NLP | RAG | Streamlit UI | Vector DB | LLM Integration*
 
 This project implements an **AI-powered Retrieval-Augmented Generation (RAG) chatbot** designed for the **GUVI Learning Platform**.  
